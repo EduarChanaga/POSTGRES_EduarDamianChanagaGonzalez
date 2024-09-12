@@ -1,0 +1,3 @@
+psql -U postgres -d BD
+
+\COPY nombre_tabla (atrib1, atrib2, atrib3) from '/ruta/' delimiter ';' csv header;
